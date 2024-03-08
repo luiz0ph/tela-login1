@@ -9,6 +9,7 @@
 }
 
 body {
+    background-color: black;
     background-image: url('../img/fundo.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -18,7 +19,7 @@ body {
 
 div.caixa-cadastro {
     border: 1px solid rgba(211, 211, 211, 0.288);
-    width: 380px;
+    width: 360px;
     height: 540px;
     margin: 50px auto;
     background: transparent;
@@ -44,7 +45,7 @@ div.caixa-cadastro {
     font-weight: bolder;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
     font-size: 20px;
-    margin-left: 74px;
+    margin-left: 55px;
     margin-bottom: 8px;
     margin-top: 30px;
 
@@ -91,7 +92,7 @@ div.caixa-cadastro {
 .lembrar-senha {
     display: inline;
     margin-top: 35px;
-    margin-left: 45px;
+    margin-left: 25px;
     font-size: 17px;
     font-weight: bold;
     padding-right: 30px;
