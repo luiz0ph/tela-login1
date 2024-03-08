@@ -9,13 +9,224 @@
 }
 
 body {
-    background-color: black;
+    /* background-color: black;
     background-image: url('../img/fundo.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
+
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #3E1E68;
+    overflow: hidden;
+}
+
+.background span {
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 20vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 45;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.background span:nth-child(0) {
+    color: #FFACAC;
+    top: 33%;
+    left: 48%;
+    animation-duration: 26s;
+    animation-delay: -25s;
+    transform-origin: -4vw -22vh;
+    box-shadow: -40vmin 0 5.151302248590691vmin currentColor;
+}
+.background span:nth-child(1) {
+    color: #FFACAC;
+    top: 79%;
+    left: 66%;
+    animation-duration: 17s;
+    animation-delay: -26s;
+    transform-origin: -21vw 10vh;
+    box-shadow: 40vmin 0 5.470253082254352vmin currentColor;
+}
+.background span:nth-child(2) {
+    color: #E45A84;
+    top: 50%;
+    left: 37%;
+    animation-duration: 54s;
+    animation-delay: -36s;
+    transform-origin: 22vw 15vh;
+    box-shadow: 40vmin 0 5.804894324276569vmin currentColor;
+}
+.background span:nth-child(3) {
+    color: #583C87;
+    top: 68%;
+    left: 93%;
+    animation-duration: 35s;
+    animation-delay: -14s;
+    transform-origin: 12vw -12vh;
+    box-shadow: -40vmin 0 5.030908883555672vmin currentColor;
+}
+.background span:nth-child(4) {
+    color: #FFACAC;
+    top: 73%;
+    left: 66%;
+    animation-duration: 25s;
+    animation-delay: -5s;
+    transform-origin: 25vw 8vh;
+    box-shadow: 40vmin 0 5.392208364025988vmin currentColor;
+}
+.background span:nth-child(5) {
+    color: #E45A84;
+    top: 71%;
+    left: 90%;
+    animation-duration: 13s;
+    animation-delay: -25s;
+    transform-origin: 17vw -15vh;
+    box-shadow: 40vmin 0 5.97621341585717vmin currentColor;
+}
+.background span:nth-child(6) {
+    color: #583C87;
+    top: 20%;
+    left: 58%;
+    animation-duration: 19s;
+    animation-delay: -22s;
+    transform-origin: 5vw 18vh;
+    box-shadow: -40vmin 0 5.3587498786047245vmin currentColor;
+}
+.background span:nth-child(7) {
+    color: #E45A84;
+    top: 66%;
+    left: 6%;
+    animation-duration: 43s;
+    animation-delay: -20s;
+    transform-origin: -24vw 0vh;
+    box-shadow: 40vmin 0 5.783636178705646vmin currentColor;
+}
+.background span:nth-child(8) {
+    color: #583C87;
+    top: 14%;
+    left: 86%;
+    animation-duration: 48s;
+    animation-delay: -12s;
+    transform-origin: -19vw -24vh;
+    box-shadow: 40vmin 0 5.669259035310647vmin currentColor;
+}
+.background span:nth-child(9) {
+    color: #E45A84;
+    top: 73%;
+    left: 61%;
+    animation-duration: 19s;
+    animation-delay: -42s;
+    transform-origin: -13vw -6vh;
+    box-shadow: 40vmin 0 5.661730861871161vmin currentColor;
+}
+.background span:nth-child(10) {
+    color: #583C87;
+    top: 30%;
+    left: 30%;
+    animation-duration: 52s;
+    animation-delay: -1s;
+    transform-origin: 14vw 9vh;
+    box-shadow: 40vmin 0 5.55799089453142vmin currentColor;
+}
+.background span:nth-child(11) {
+    color: #FFACAC;
+    top: 95%;
+    left: 4%;
+    animation-duration: 36s;
+    animation-delay: -13s;
+    transform-origin: 4vw 5vh;
+    box-shadow: 40vmin 0 5.282965810530237vmin currentColor;
+}
+.background span:nth-child(12) {
+    color: #E45A84;
+    top: 48%;
+    left: 60%;
+    animation-duration: 54s;
+    animation-delay: -12s;
+    transform-origin: 5vw -17vh;
+    box-shadow: 40vmin 0 5.0187446725537255vmin currentColor;
+}
+.background span:nth-child(13) {
+    color: #E45A84;
+    top: 20%;
+    left: 88%;
+    animation-duration: 40s;
+    animation-delay: -13s;
+    transform-origin: -2vw -14vh;
+    box-shadow: 40vmin 0 5.526336284105997vmin currentColor;
+}
+.background span:nth-child(14) {
+    color: #FFACAC;
+    top: 80%;
+    left: 45%;
+    animation-duration: 10s;
+    animation-delay: -10s;
+    transform-origin: 23vw 20vh;
+    box-shadow: 40vmin 0 5.7237810691835405vmin currentColor;
+}
+.background span:nth-child(15) {
+    color: #583C87;
+    top: 60%;
+    left: 2%;
+    animation-duration: 21s;
+    animation-delay: -17s;
+    transform-origin: 24vw 25vh;
+    box-shadow: -40vmin 0 5.953677171273922vmin currentColor;
+}
+.background span:nth-child(16) {
+    color: #FFACAC;
+    top: 81%;
+    left: 37%;
+    animation-duration: 12s;
+    animation-delay: -10s;
+    transform-origin: -1vw 17vh;
+    box-shadow: 40vmin 0 5.651042464960279vmin currentColor;
+}
+.background span:nth-child(17) {
+    color: #583C87;
+    top: 21%;
+    left: 57%;
+    animation-duration: 25s;
+    animation-delay: -27s;
+    transform-origin: 11vw -23vh;
+    box-shadow: -40vmin 0 5.9333812385048965vmin currentColor;
+}
+.background span:nth-child(18) {
+    color: #E45A84;
+    top: 86%;
+    left: 37%;
+    animation-duration: 32s;
+    animation-delay: -11s;
+    transform-origin: 1vw 2vh;
+    box-shadow: -40vmin 0 5.3796277513019275vmin currentColor;
+}
+.background span:nth-child(19) {
+    color: #FFACAC;
+    top: 66%;
+    left: 85%;
+    animation-duration: 7s;
+    animation-delay: -25s;
+    transform-origin: -13vw -10vh;
+    box-shadow: 40vmin 0 5.974988883229589vmin currentColor;
+}
+
 
 div.caixa-cadastro {
     border: 1px solid rgba(211, 211, 211, 0.288);
@@ -52,6 +263,8 @@ div.caixa-cadastro {
 }
 
 .padrao {
+    background: transparent;
+    backdrop-filter: blur(8px);
     display: block;
     margin: auto;
     margin-bottom: 25px;
@@ -65,8 +278,13 @@ div.caixa-cadastro {
     transition: 0.5s all ease;
 }
 
+.padrao:hover {
+    width: 250px;
+    height: 30px;
+}
+
 .padrao:focus {
-    border: 1px solid black;
+    border: none;
 }
 
 .botao-enviar {
@@ -165,7 +383,7 @@ div.caixa-cadastro {
     width: 50px;
     height: 30px;
     display: inline;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 #paragrafo-github {
@@ -173,7 +391,6 @@ div.caixa-cadastro {
     font-size: 18px;
     transition: 0.5s all ease;
     flex: 1;
-    justify-content: center;
 }
 
 .github:hover {
