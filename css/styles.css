@@ -65,6 +65,10 @@ div.caixa-cadastro {
     transition: 0.5s all ease;
 }
 
+.padrao:focus {
+    border: 1px solid black;
+}
+
 .botao-enviar {
     text-align: center;
     margin-bottom: 20px;
