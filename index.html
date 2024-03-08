@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <!-- Caixa de cadastro -->
+        <div class="caixa-cadastro">
+
+            <div class="titulo">
+            <!-- Titulo cadastro -->
+            <h1 id="titulo-principal">Login</h1>
+            </div>
+
+            <!-- Formulario -->
+            <div class="formulario">
+                <form action="link" method="post">
+
+                    <div class="form-email">
+                        <!-- Legenda -->
+                        <legend id="legenda-email" class="legenda">E-mail:</legend>
+
+                        <!-- Formulario pro email -->
+                        <label for="email" id="label-email">
+                            <input 
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                            placeholder="Seu E-mail"
+                            class="padrao">
+                        </label>
+                    </div>
+
+                    <div class="form-senha">
+                        <!-- Legenda pra senha -->
+                        <legend id="legenda-senha" class="legenda">Senha: </legend>
+
+                        <!-- Formulario pra senha -->
+                        <label for="senha" id="label-senha">
+                            <input
+                            type="password"
+                            id="senha"
+                            name="senha"
+                            required
+                            placeholder="Sua Senha"
+                            class="padrao">
+                        </label>
+                    </div>
+
+                    <!-- Botão para enviar o formulario -->
+                    <div class="botao-enviar">
+                        <button id="btn-enviar" type="submit">
+                            Enviar
+                        </button>
+                    </div>
+
+                    <div class="lembrar-senha">
+                        <!-- Lembrar senha -->
+                        <label for="salvar" id="label-salvar">
+                            <input 
+                            type="checkbox"
+                            id="salvar"
+                            name="salvar">
+                            <span id="lb-senha0">Lembrar Senha</span>
+                        </label>
+                    </div>
+
+                    <!-- Esqueceu a senha -->
+                    <div class="esqueceu-senha">
+                        <a href="#" id="link-esqueceu-senha">Esqueceu senha</a>
+                    </div>
+                </form>
+            </div> <!-- Final formulario -->
+
+            <p id="ou">ou</p>
+
+            <div class="outras-formas">
+
+                <a href="https://github.com/luiz0ph" id="link-github" target="_blank">
+                    <div class="github">
+                        <img src="img/github-logo.png" alt="Logo do github" id="logo-github">
+                        <p id="paragrafo-github">Acesse pelo Github</p>
+                    </div>
+                </a>
+
+            </div>
+
+        </div> <!-- Final da caixa de cadastro -->
+    </main>
+</body>
+</html>
