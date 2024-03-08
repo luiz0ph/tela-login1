@@ -18,8 +18,8 @@ body {
 
 div.caixa-cadastro {
     border: 1px solid rgba(211, 211, 211, 0.288);
-    width: 400px;
-    height: 550px;
+    width: 380px;
+    height: 540px;
     margin: 50px auto;
     background: transparent;
     backdrop-filter: blur(15px);
