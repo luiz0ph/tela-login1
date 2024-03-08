@@ -103,6 +103,7 @@ div.caixa-cadastro {
 }
 
 #salvar {
+    vertical-align: middle;
     width: 20px;
     height: 16px;
     transition: 0.5s all ease;
