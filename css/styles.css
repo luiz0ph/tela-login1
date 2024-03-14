@@ -5,6 +5,8 @@
     src: url("../fonts/Heavitas.ttf");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100.. 900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +32,8 @@ div.caixa-cadastro {
 #titulo-principal {
     text-align: center;
     margin: 20px;
-    font-family: 'titulo', sans-serif;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.452);
 
     background-color: rgba(31, 3, 156, 0.534);
