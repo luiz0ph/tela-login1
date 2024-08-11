@@ -64,12 +64,12 @@ div.caixa-cadastro {
     font-size: 15px;
     box-shadow: 2px 2px 10px black;
     height: 25px;
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
 }
 
 .padrao:hover {
-    width: 250px;
-    height: 30px;
+    transform: scale(1.1);
+    transition: 0.3s all ease;
 }
 
 .padrao:focus {
@@ -90,6 +90,7 @@ div.caixa-cadastro {
 }
 
 #btn-enviar {
+    cursor: pointer;
     text-align: center;
     padding: 5px;
     width: 160px;
@@ -98,15 +99,13 @@ div.caixa-cadastro {
     font-size: 17px;
     font-weight: bolder;
     box-shadow: 2px 2px 10px black;
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
     background-color: rgba(182, 181, 181, 0.767);
 }
 
 #btn-enviar:hover {
-    width: 170px;
-    height: 55px;
-    cursor: pointer;
-    font-size: 20px;
+    transform: scale(1.1);
+    transition: 0.3s all ease;
 }
 
 .lembrar-senha {
@@ -122,13 +121,13 @@ div.caixa-cadastro {
     vertical-align: middle;
     width: 20px;
     height: 16px;
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
 }
 
 #salvar:hover {
     cursor: pointer;
-    width: 25px;
-    height: 18px;
+    transform: scale(1.1);
+    transition: 0.3s all ease;
 }
 
 .esqueceu-senha {
@@ -139,7 +138,7 @@ div.caixa-cadastro {
     margin-top: 25px;
     text-decoration: none;
     font-size: 18px;
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
     color: black;
     font-weight: bold;
 }
@@ -147,7 +146,8 @@ div.caixa-cadastro {
 #link-esqueceu-senha:hover {
     cursor: pointer;
     text-decoration: underline;
-    font-size: 19px;
+    transform: scale(1.1);
+    transition: 0.3s all ease;
 }
 
 #ou {
@@ -171,7 +171,7 @@ div.caixa-cadastro {
     border-radius: 5px;
     background-color: lightgrey;
     height: 35px;
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
     display: flex;
     align-items: center;
 }
@@ -186,12 +186,11 @@ div.caixa-cadastro {
 #paragrafo-github {
     display: inline;
     font-size: 18px;
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
     flex: 1;
 }
 
 .github:hover {
-    width: 82%;
-    height: 37px;
-    font-size: 19px;
+    transform: scale(1.1);
+    transition: 0.3s all ease;
 }
